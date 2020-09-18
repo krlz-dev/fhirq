@@ -1,0 +1,8 @@
+.menu{
+    width: 100%;
+    transition: 0.5s;
+    background-color: #4b4b5f;
+    color:white;
+    padding: 0px;
+    margin:0px;
+}
