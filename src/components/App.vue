@@ -4,9 +4,9 @@
   <div id="app">
     <Menu/>
     <h2>Hola</h2>
-    <Card v-for="i in 10"
-          :key="i"
-          msg="Welcome to Your Vue.js App"/>
+<!--    <Card v-for="i in 10"-->
+<!--          :key="i"-->
+<!--          msg="Welcome to Your Vue.js App"/>-->
   </div>
 </template>
 
