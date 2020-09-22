@@ -12,6 +12,7 @@
     margin: 0;
     padding: 0;
     cursor: pointer;
+    outline: none;
 }
 
 .menu-desktop {
@@ -21,11 +22,13 @@
 .slide-menu{
     position: absolute;
     background-color: #398a3d;
-    width: 80%;
+    width: 100%;
     height: 300px;
-    padding: 16px;
-    left:-85%;
+    left:-100%;
     transition: 0.3s;
+}
+.container{
+    padding: 16px;
 }
 
 .slide-menu-show{

@@ -24,10 +24,12 @@
         </a>
       </div>
       <div ref="slideMenu" class="slide-menu">
-        <ul>
-          <li>Hello</li>
-          <li>Yellow</li>
-        </ul>
+       <div class="container">
+         <ul>
+           <li>Hello</li>
+           <li>Yellow</li>
+         </ul>
+       </div>
       </div>
     </nav>
   </div>
