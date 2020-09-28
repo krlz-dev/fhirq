@@ -2,7 +2,7 @@
   <div>
     <nav class="menu-desktop">
       <div class="menu-left">
-        <h1 class="logo">LOGO</h1>
+        <h1 class="logo">FHIR-Q</h1>
         <a href="#">Option 1</a>
         <a href="#">Option 2</a>
         <a href="#">Option 3</a>
