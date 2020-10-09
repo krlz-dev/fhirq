@@ -10,22 +10,18 @@
 </template>
 
 <script>
-import Menu from './menu/Menu.vue'
-import store from '../store'
 import VueRouter from 'vue-router'
-import Main from "./views/main/Main";
 import Vue from 'vue'
-import Fhir from "@/components/views/fhir/Fhir";
+import Menu from '@/components/menu/Menu.vue'
+import store from '@/store'
+import routes from '@/routes'
 
 Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'history',
   base: __dirname,
-  routes: [
-    {path: '/', component: Main},
-    {path: '/fhir', component: Fhir},
-  ]
+  routes: routes
 });
 
 export default {
